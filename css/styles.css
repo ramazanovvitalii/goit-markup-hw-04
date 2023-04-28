@@ -1,10 +1,10 @@
 :root {
-     --back-color: #ffffff;
-     --navy-blue: #2e2f42;
-     --cloud: #f4f4fd;
-     --iris: #4d5ae5;
-     --ocean: #404bbf;
-     --slate: #434455;
+    --back-color: #ffffff;
+    --navy-blue: #2e2f42;
+    --cloud: #f4f4fd;
+    --iris: #4d5ae5;
+    --ocean: #404bbf;
+    --slate: #434455;
 }
 body {
     font-family: "Roboto", sans-serif;
@@ -16,14 +16,14 @@ body {
     padding: 0%;
 }
 .logo {
-     font-family: "Raleway", sans-serif;
-     font-weight: 800;
-     font-size: 18px;
-     line-height: 1.17;
-      letter-spacing: 0.03em;
-      text-transform: uppercase;
-      color: var(--iris);
-      margin-right: 76px;
+    font-family: "Raleway", sans-serif;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    color: var(--iris);
+    margin-right: 76px;
 }
 img {
     display: block;
@@ -46,6 +46,7 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
+    margin-right: auto;
     
  }
 .nav:hover,
@@ -62,6 +63,9 @@ img {
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
+    margin-right: 0;
+    
+    
 }
 .contakt:hover,
 .contakt:focus {
@@ -70,10 +74,21 @@ img {
 .contakts {
     display: flex;
     gap: 40px;
+    margin-left: auto;
+    padding: 0;
+    
+    
+     
 }
 .hero {
     background-color: var(--navy-blue);
     padding: 188px 0;
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images2/people-office1.jpg);
+    max-width: 1440px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    
 }
 .hero-solution {
     font-size: 56px;
@@ -82,6 +97,7 @@ img {
     letter-spacing: 0.02em;
     color: var(--back-color);
     max-width: 496px; 
+    margin: 0;
 }
 .btn {
     background-color: var(--iris);
@@ -98,6 +114,7 @@ img {
     height: 56px;
     border: none;
     border-radius: 4px;
+    margin: auto;
 }
 .btn:hover,
 .btn:focus {
@@ -109,9 +126,11 @@ img {
     line-height: 1.2;
     letter-spacing: 0.02em;
     color: var(--navy-blue);
-    margin-bottom: 8px;
     text-align: center;
     margin-bottom: 8px;
+   
+
+    
 }
 .front {
     font-size: 16px;
@@ -119,6 +138,26 @@ img {
     letter-spacing: 0.02em;
     color: var(--slate);
     text-align: center;
+    margin: 0;
+    
+}
+.name-class {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--navy-blue);
+    text-align: left;
+    margin-bottom: 8px;
+    
+}
+.front-class {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+    text-align: left;
+    margin: 0;
 }
 .team {
     font-size: 36px;
@@ -128,9 +167,11 @@ img {
     text-transform: capitalize;
     color: var(--navy-blue);
     margin-bottom: 72px;
+    text-align: center;
+   
 }
 .foto {
-    background-color: var(--cloud);
+    
 }
 .foto-studio {
     background-color: var(-back-color);
@@ -150,6 +191,7 @@ img {
 }
 .text {
     color: var(-cloud);
+    margin: 0;
 }
 .portfolio {
     background-color: var(--cloud);
@@ -204,6 +246,7 @@ img {
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
+    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
 .navigator {
@@ -219,11 +262,13 @@ img {
 .discript {
     display: flex;
     align-items: center;
+    margin: 0%;
 
 }
 .page {
     display: flex;
     gap: 40px;
+    padding: 0;
 }
 .nav {
     padding: 24px 0;
@@ -234,26 +279,38 @@ img {
 .techno {
     display: flex;
     gap: 24px;
-    margin: 0;
     padding: 0;
+   
 }
 .element {
     margin-right: 0px;
     flex-basis: calc((100% - 72px) / 4);
    
+   
 }
 .comand {
     padding: 120px 0;
+    background-color: var(--cloud);
 }
 .foto {
     padding-bottom: 120px; 
 }
 .work {
+    font-family: 'Roboto';
+    text-align: center;
+    letter-spacing: 0.02em;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 40px;
+    margin: 0;
     margin-bottom: 72px;
 }
 .rectangle {
     display: flex;
     gap: 24px;
+    margin-left: auto;
+    padding: 0;
 }
 .what {
     flex-basis: calc((100% - 72px) / 4);
@@ -261,6 +318,7 @@ img {
 .item {
     display: flex;
     gap: 24px;
+    padding: 0;
 }
 .people {
     padding: 32px 16px;
@@ -274,15 +332,20 @@ img {
     justify-content: center;
     gap: 24px;
     margin-bottom: 72px;
+    padding: 0;
 }
 .discript {
     display: flex;
     flex-wrap: wrap;
     column-gap: 24px;
-    row-gap: 48px
-}
+    row-gap: 48px;
+    position: initial;
+    margin: 0%;
+    padding: 0%;
+    
+}   
 .bank {
-   width: calc(100% - 48px) / 3;
+   width: calc((100% - 48px) / 3);
 }
 .interface {
     padding: 32px 16px;
