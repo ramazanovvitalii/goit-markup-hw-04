@@ -399,5 +399,60 @@ img {
     border: 1px solid #e7e9fc;
     border-top: none; 
 }
-
+.icon {
+    background-image: url(../images3/antenna1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0%;
+    bottom: 0%; 
+    background-color: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.icon-clock {
+    background-image: url(../images3/clock1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0%;
+    bottom: 0%; 
+    background-color: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.icon-diagram {
+    background-image: url(../images3/diagram1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0%;
+    bottom: 0%; 
+    background-color: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
+.icon-cosmo {
+    background-image: url(../images3/astronaut1.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    top: 0%;
+    bottom: 0%; 
+    background-color: #f4f4fd;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 112px;
+    border-radius: 4px;
+    margin-bottom: 8px;
+}
 
