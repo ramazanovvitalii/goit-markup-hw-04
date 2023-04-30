@@ -6,6 +6,9 @@
     --ocean: #404bbf;
     --slate: #434455;
 }
+* {
+    box-sizing: border-box;
+}
 body {
     font-family: "Roboto", sans-serif;
     color: var(--slate);
@@ -31,7 +34,7 @@ img {
       
 .link {
     text-decoration: none;
-}    
+}
 
 .span {
     color: var(--navy-blue);
@@ -54,64 +57,103 @@ img {
      color: var(--ocean) ;
 
 }
-.contakt {
+.mail {
     font-style: normal;
    
 }
-.contakt {
+.mail {
     font-size: 16px;
     line-height: 1.5;
     letter-spacing: 0.02em;
     color: var(--slate);
     margin-right: 0;
-    
-    
+    position: absolute;
+    width: 153px;
+    height: 24px;
+    left: 940px;
+    top: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;      
 }
-.contakt:hover,
-.contakt:focus {
+.mail:hover,
+.mail:focus {
     color: var(--ocean);
 }
+.tel {
+    font-style: normal;
+}
+.tel{
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 1133px;
+    top: 24px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.02em;
+    color: var(--slate);
+}
+.tel:hover,
+.tel:focus{
+    color: var(--ocean);
+}
+
 .contakts {
-    display: flex;
-    gap: 40px;
-    margin-left: auto;
     padding: 0;
-    
-    
-     
+    display: flex;
+    gap: 40px;    
 }
 .hero {
     background-color: var(--navy-blue);
+    width: 1440px;
+    height: 600px;
+    left: 0px;
+    top: 72px;
     padding: 188px 0;
-    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images2/people-office1.jpg);
-    max-width: 1440px;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
-    
 }
 .hero-solution {
+    position: absolute;
+    width: 496px;
+    height: 120px;
+    left: 472px;
+    top: 260px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
     font-size: 56px;
-    line-height: 1.07;
+    line-height: 60px;
     text-align: center;
     letter-spacing: 0.02em;
     color: var(--back-color);
-    max-width: 496px; 
     margin: 0;
+    max-width: 496px;
+    
+    
 }
 .btn {
     background-color: var(--iris);
     font-family: "Roboto", sans-serif;
-    font-weight: 500;
-    font-size: 16px;
-    line-height: 1.5;
-    letter-spacing: 0.04em;
-    letter-spacing: 0.04em;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 16px 32px;
+    gap: 10px;
+    position: absolute;
+    width: 169px;
+    height: 56px;
+    left: 636px;
+    top: 428px;
     color: var(--back-color);
     cursor: pointer;
     display: block;
     min-width: 169px;
-    height: 56px;
     border: none;
     border-radius: 4px;
     margin: auto;
@@ -186,9 +228,7 @@ img {
     padding: 100px 0;
     
 }
-.studio {
-    color: var(--back-color);
-}
+
 .text {
     color: var(-cloud);
     margin: 0;
@@ -204,14 +244,13 @@ img {
     cursor: pointer;
     padding: 12px 24px;
     border: 1px solid #e7e9fc;
-    border-radius: 4px;
-}   
+    border-radius: 4px;    
+}
 .portfolio:hover,
 .portfolio:focus {
     color: var(--back-color);
     background-color: var(--ocean);
     border: 1px solid transparent;
-    box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 2px 1px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 .footer-studio {
     color: var(--cloud);
@@ -230,11 +269,14 @@ img {
 }
 .studio {
     color: var(--cloud);
-    font-family: 'Roboto';
+    width: 71px;
+    font-family: 'Raleway';
     font-style: normal;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 21px;  
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
 } 
 .text {
     font-family: 'Roboto';
@@ -247,7 +289,6 @@ img {
 }
 .header {
     border-bottom: 1px solid #e7e9fc;
-    box-shadow: 0px 2px 1px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 1px 6px rgba(46, 47, 66, 0.08);
 
 }
 .navigator {
@@ -341,19 +382,12 @@ img {
     column-gap: 24px;
     row-gap: 48px;
     position: initial;
-    margin: 0%;
     padding: 0%;
     
 }   
 .bank {
    width: calc((100% - 48px) / 3);
-   display: block;
 }
-.bank:hover,
-.bank:focus {
-    box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08), 0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
-}
-    
 .interface {
     padding: 32px 16px;
     border: 1px solid #e7e9fc;
